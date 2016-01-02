@@ -1,0 +1,76 @@
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\obj\x86\Debug\EntryPoint.csprojResolveAssemblyReference.cache
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\EntryPoint.exe.config
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\Content\circle.png
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\Content\crosshair.png
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\Content\crosshairs.png
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\Content\lighting.png
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\Content\linearGlow.png
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\Content\roads.jpg
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\Content\tileset.png
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\Content\numberingFont.xnb
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\EntryPoint.exe
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\EntryPoint.pdb
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\Game.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\MonoGame.Framework.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\FSharp.Core.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\SharpDX.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\SharpDX.XAudio2.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\SharpDX.Direct3D11.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\SharpDX.DXGI.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\SharpDX.Direct2D1.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\SharpDX.XInput.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\SharpDX.RawInput.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\SharpDX.Direct3D9.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\Game.pdb
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\MonoGame.Framework.xml
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\FSharp.Core.xml
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\SharpDX.xml
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\SharpDX.XAudio2.xml
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\SharpDX.Direct3D11.xml
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\SharpDX.DXGI.xml
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\SharpDX.Direct2D1.xml
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\SharpDX.XInput.xml
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\SharpDX.RawInput.xml
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\bin\Windows\Debug\SharpDX.Direct3D9.xml
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\obj\x86\Debug\EntryPoint.exe
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\EntryPoint\obj\x86\Debug\EntryPoint.pdb
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\EntryPoint.exe.config
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\obj\x86\Debug\EntryPoint.exe
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\obj\x86\Debug\EntryPoint.pdb
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\Content\circle.png
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\Content\crosshair.png
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\Content\crosshairs.png
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\Content\lighting.png
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\Content\linearGlow.png
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\Content\roads.jpg
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\Content\tileset.png
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\Content\numberingFont.xnb
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\EntryPoint.exe
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\EntryPoint.pdb
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\Game.dll
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\MonoGame.Framework.dll
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\FSharp.Core.dll
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\SharpDX.dll
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\SharpDX.XAudio2.dll
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\SharpDX.DXGI.dll
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\SharpDX.Direct3D11.dll
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\SharpDX.Direct2D1.dll
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\SharpDX.XInput.dll
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\SharpDX.RawInput.dll
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\SharpDX.Direct3D9.dll
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\Game.pdb
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\MonoGame.Framework.xml
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\FSharp.Core.xml
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\SharpDX.xml
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\SharpDX.XAudio2.xml
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\SharpDX.DXGI.xml
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\SharpDX.Direct3D11.xml
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\SharpDX.Direct2D1.xml
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\SharpDX.XInput.xml
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\SharpDX.RawInput.xml
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\bin\Windows\Debug\SharpDX.Direct3D9.xml
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\EntryPoint\obj\x86\Debug\EntryPoint.csprojResolveAssemblyReference.cache

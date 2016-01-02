@@ -1,0 +1,30 @@
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\Main.XML
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\Game.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\Game.pdb
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\FSharp.Core.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\MonoGame.Framework.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\SharpDX.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\SharpDX.DXGI.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\SharpDX.XInput.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\SharpDX.RawInput.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\MonoGame.Framework.xml
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\FSharp.Core.xml
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\SharpDX.xml
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\SharpDX.Direct3D11.xml
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\SharpDX.DXGI.xml
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\SharpDX.Direct2D1.xml
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\SharpDX.XInput.xml
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\SharpDX.RawInput.xml
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\bin\Debug\SharpDX.Direct3D9.xml
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\obj\Debug\Game.dll
+C:\Users\Giulia\Documents\GitHub\INFDEV01-6A\Sources\Assignment\Main\obj\Debug\Game.pdb
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\Main\bin\Debug\Main.XML
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\Main\obj\Debug\Game.dll
+D:\School\Jaar 2\Development\Periode 2\DevA\INFDEV02-6A - Practical assignment\Main\obj\Debug\Game.pdb

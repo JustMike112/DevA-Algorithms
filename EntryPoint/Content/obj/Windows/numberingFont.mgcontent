@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>D:/School/Jaar 2/Development/Periode 2/DevA/INFDEV02-6A - Practical assignment/EntryPoint/Content/numberingFont.spritefont</SourceFile>
+  <SourceTime>2015-11-17T09:17:02.7809396+01:00</SourceTime>
+  <DestFile>D:/School/Jaar 2/Development/Periode 2/DevA/INFDEV02-6A - Practical assignment/EntryPoint/Content/bin/Windows/numberingFont.xnb</DestFile>
+  <DestTime>2015-12-02T15:01:34.7632052+01:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2015-11-27T11:12:22+01:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2015-11-27T11:12:22+01:00</ProcessorTime>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
