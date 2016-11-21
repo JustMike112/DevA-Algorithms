@@ -95,20 +95,200 @@ namespace EntryPoint
     }
 
     private static IEnumerable<IEnumerable<Vector2>> FindSpecialBuildingsWithinDistanceFromHouse(
-      IEnumerable<Vector2> specialBuildings, 
-      IEnumerable<Tuple<Vector2, float>> housesAndDistances)
+        IEnumerable<Vector2> specialBuildings,
+        IEnumerable<Tuple<Vector2, float>> housesAndDistances)
     {
-      return
-          from h in housesAndDistances
-          select
-            from s in specialBuildings
-            where Vector2.Distance(h.Item1, s) <= h.Item2
-            select s;
+        //Old function
+        //return
+        //    from h in housesAndDistances
+        //    select
+        //      from s in specialBuildings
+        //      where Vector2.Distance(h.Item1, s) <= h.Item2
+        //      select s;
+
+        var t = new Empty<Vector2>() as KDTree<Vector2>;
+        foreach (Vector2 v in specialBuildings)
+        {
+            t = Insert(t, v, t.isDepthEven);
+        }
+
+        List<List<Vector2>> specialBuildingsNearHousesList = new List<List<Vector2>>();
+        foreach (Tuple<Vector2, float> h in housesAndDistances)
+        {
+            List<Vector2> specialBuildingNearSingleHouseList = new List<Vector2>();
+            SearchElement(t, h.Item1, h.Item2, specialBuildingNearSingleHouseList);
+            specialBuildingsNearHousesList.Add(specialBuildingNearSingleHouseList);
+        }
+
+        PrintPreOrder(t, 0);
+
+        return specialBuildingsNearHousesList;
+    }
+
+    interface KDTree<T>
+    {
+        bool IsEmpty { get; }
+        bool isDepthEven { get; }
+        T vector { get; }
+        KDTree<T> Left { get; }
+        KDTree<T> Right { get; }
+    }
+
+    class Empty<T> : KDTree<T>
+    {
+        public bool IsEmpty
+        {
+            get
+            {
+                return true;
+            }
+        }
+
+        public bool isDepthEven
+        {
+            get
+            {
+                return false;
+            }
+        }
+
+
+        public KDTree<T> Left
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        public KDTree<T> Right
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        public T vector
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+        }
+    }
+
+    class Node<T> : KDTree<T>
+    {
+        public bool IsEmpty
+        {
+            get
+            {
+                return false;
+            }
+        }
+
+        public bool isDepthEven { get; set; }
+
+        public KDTree<T> Left { get; set; }
+
+        public KDTree<T> Right { get; set; }
+
+        public T vector { get; set; }
+
+        public Node(KDTree<T> l, T v, KDTree<T> r, bool d)
+        {
+            vector = v;
+            Left = l;
+            Right = r;
+            isDepthEven = d;
+        }
+    }
+
+    static KDTree<Vector2> Insert(KDTree<Vector2> t, Vector2 v, bool isParentDepthEven)
+    {
+        if (t.IsEmpty)
+        {
+            if (isParentDepthEven)
+                return new Node<Vector2>(new Empty<Vector2>(), v, new Empty<Vector2>(), false);
+            else
+                return new Node<Vector2>(new Empty<Vector2>(), v, new Empty<Vector2>(), true);
+        }
+
+        if (t.vector == v)
+            return t;
+
+        if (t.isDepthEven)
+        {
+            if (v.X < t.vector.X)
+                return new Node<Vector2>(Insert(t.Left, v, t.isDepthEven), t.vector, t.Right, true);
+            else
+                return new Node<Vector2>(t.Left, t.vector, Insert(t.Right, v, t.isDepthEven), true);
+        }
+        else
+        {
+            if (v.Y < t.vector.Y)
+                return new Node<Vector2>(Insert(t.Left, v, t.isDepthEven), t.vector, t.Right, false);
+            else
+                return new Node<Vector2>(t.Left, t.vector, Insert(t.Right, v, t.isDepthEven), false);
+        }
+    }
+
+    static void SearchElement(KDTree<Vector2> t, Vector2 v, float radius, List<Vector2> searchResultList)
+    {
+        if (!t.IsEmpty)
+        {
+            if (t.isDepthEven)
+            {
+                if (Math.Abs(t.vector.X - v.X) <= radius)
+                {
+                    if (Vector2.Distance(t.vector, v) <= radius)
+                        searchResultList.Add(t.vector);
+                    SearchElement(t.Left, v, radius, searchResultList);
+                    SearchElement(t.Right, v, radius, searchResultList);
+                }
+
+                else if (t.vector.X > (v.X + radius))
+                    SearchElement(t.Left, v, radius, searchResultList);
+                else if (t.vector.X < (v.X - radius))
+                    SearchElement(t.Right, v, radius, searchResultList);
+            }
+            else
+            {
+                if (Math.Abs(t.vector.Y - v.Y) <= radius)
+                {
+                    if (Vector2.Distance(t.vector, v) <= radius)
+                        searchResultList.Add(t.vector);
+                    SearchElement(t.Left, v, radius, searchResultList);
+                    SearchElement(t.Right, v, radius, searchResultList);
+                }
+                else if (t.vector.Y > (v.Y + radius))
+                    SearchElement(t.Left, v, radius, searchResultList);
+                else if (t.vector.Y < (v.Y - radius))
+                    SearchElement(t.Right, v, radius, searchResultList);
+            }
+        }
+    }
+
+    static void PrintPreOrder(KDTree<Vector2> t, int depth)
+    {
+        if (t.IsEmpty) return;
+        Console.WriteLine("depth: " + depth + ", vector: " + t.vector);
+        PrintPreOrder(t.Left, depth + 1);
+        PrintPreOrder(t.Right, depth + 1);
+    }
+
+    static void PrintInOrder(KDTree<Vector2> t, int depth)
+    {
+        if (t.IsEmpty) return;
+        PrintInOrder(t.Left, depth + 1);
+        Console.WriteLine("depth: " + depth + ", vector: " + t.vector);
+        PrintInOrder(t.Right, depth + 1);
     }
 
     private static IEnumerable<Tuple<Vector2, Vector2>> FindRoute(Vector2 startingBuilding, 
-      Vector2 destinationBuilding, IEnumerable<Tuple<Vector2, Vector2>> roads)
-    {
+    Vector2 destinationBuilding, IEnumerable<Tuple<Vector2, Vector2>> roads)
+        {
       var startingRoad = roads.Where(x => x.Item1.Equals(startingBuilding)).First();
       List<Tuple<Vector2, Vector2>> fakeBestPath = new List<Tuple<Vector2, Vector2>>() { startingRoad };
       var prevRoad = startingRoad;
